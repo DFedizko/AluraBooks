@@ -15,6 +15,12 @@
     display: none;
 }
 
+.container__menu-hamburguer {
+    align-content: center;
+    text-align: center;
+    height: 72px;
+}
+
 .cabecalho__menu-hamburguer {
     width: 36px;
     height: 24px;
@@ -38,6 +44,16 @@
 .container__botao:checked ~ .lista-menu {
     display: block;
 }
+
+
+
+.container__botao:checked ~ .container__menu-hamburguer .cabecalho__menu-hamburguer {    
+    background-image: url("../images/Menu\ Aberto.svg");
+    background-position: center;
+    height: 100%;
+    padding-block: 0;
+}
+
 
 .lista-menu__titulo, 
 .lista-menu__item {
