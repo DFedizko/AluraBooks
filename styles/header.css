@@ -75,7 +75,8 @@
 }
 
 .container__titulo,
-.opcoes {
+.opcoes,
+.container__texto {
     display: none;
 }
 
@@ -147,5 +148,32 @@
 
     .container__imagem-usuario {
         margin-left: 3em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho {
+        justify-content: space-between;
+        padding: 0 3em;
+    }
+
+    .container__imagem {
+        margin: 0;
+    }
+
+    .opcoes {
+        padding-right: 27%;
+    }
+
+    .container__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .container__texto {
+        display: block;
+        font-size: 20px;
+        color: var(--preto);
+        padding-right: 1em;
     }
 }
