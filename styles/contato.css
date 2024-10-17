@@ -39,3 +39,25 @@
     padding-left: 2em;
     background-position: left center;
 }
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15%;
+    }
+
+    .contato__descricao {
+        margin: 2em 2em 2em 0;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__email {
+        height: 10%;
+        width: 40%;
+    }
+}
