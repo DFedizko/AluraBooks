@@ -109,6 +109,7 @@
 
     .opcoes__item {
         padding: 1em;
+        cursor: pointer;
     }
 
     .item__link {
@@ -122,24 +123,25 @@
         width: auto;
     }
 
-    .opcoes__botao:checked + label .opcoes__item {
+    .opcoes__botao:checked, .opcoes__botao:hover + label .opcoes__item {
         background: var(--azul-degrade);
         color: var(--branco);
     }
 
-    .lista-menu__item:active > .lista-menu__link {
+    .lista-menu__item:active, .lista-menu__item:hover > .lista-menu__link {
         -webkit-text-fill-color: var(--branco);
     }
 
-    .lista-menu__item:active {
+    .lista-menu__item:active, .lista-menu__item:hover {
+        background: var(--azul-degrade);
+        cursor: pointer;
+    }
+
+    .opcoes__item-active:active, .opcoes__item-active:hover {
         background: var(--azul-degrade);
     }
 
-    .opcoes__item-active:active {
-        background: var(--azul-degrade);
-    }
-
-    .opcoes__item-active:active > .item__link {
+    .opcoes__item-active:active, .opcoes__item-active:hover > .item__link {
         -webkit-text-fill-color: var(--branco);
     }
 
