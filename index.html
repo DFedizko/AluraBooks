@@ -90,92 +90,96 @@
     <section class="carrossel">
         <h2 class="carrossel__titulo">Últimos lançamentos</h2>
                 <!-- Slider main container -->
-        <div class="swiper">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-                <div class="swiper-slide"><img src="./images/ApacheKafka.svg" alt="Livro sobre apache aafka e springboot da alura books"></div>
-                <div class="swiper-slide"><img src="./images/Liderança.svg" alt="Livro sobre liderança em design da alura books"></div>
-                <div class="swiper-slide"><img src="./images/Javascript.svg" alt="Livro sobre javascript assertivo da alura books"></div>
-                <div class="swiper-slide"><img src="./images/Guia Front-end.svg" alt="Livro guia front-end da alura books"></div>
-                <div class="swiper-slide"><img src="./images/Portugol.svg" alt="Livro sobre portugol da alura books"></div>
-                <div class="swiper-slide"><img src="./images/Acessibilidade.svg" alt="Livro sobre acessibilidade da alura books"></div>
-            </div>
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-
-        <div class="card">
-            <!-- Primeira linha -->
-            <div class="card__descricao">
-                <!-- Primeira coluna -->
-                <div class="descricao">
-                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
-                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+        <div class="carrossel__conteudo">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide"><img src="./images/ApacheKafka.svg" alt="Livro sobre apache aafka e springboot da alura books"></div>
+                    <div class="swiper-slide"><img src="./images/Liderança.svg" alt="Livro sobre liderança em design da alura books"></div>
+                    <div class="swiper-slide"><img src="./images/Javascript.svg" alt="Livro sobre javascript assertivo da alura books"></div>
+                    <div class="swiper-slide"><img src="./images/Guia Front-end.svg" alt="Livro guia front-end da alura books"></div>
+                    <div class="swiper-slide"><img src="./images/Portugol.svg" alt="Livro sobre portugol da alura books"></div>
+                    <div class="swiper-slide"><img src="./images/Acessibilidade.svg" alt="Livro sobre acessibilidade da alura books"></div>
                 </div>
-                <!-- Segunda coluna -->
-                <img src="./images/Angular.svg" alt="Logo do Angular" class="descricao__imagem">
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <!-- Segunda linha -->
-            <div class="card__botoes">
-                <!-- Primeira coluna -->
-                <ul class="botoes">
-                    <li class="botoes__item"><img src="./images/Favoritos Card.svg" alt="Favoritar livro"></li>
-                    <li class="botoes__item"><img src="./images/Compras Card.svg" alt="Adicionar no carrinho de compras"></li>
-                </ul>
-                <!-- Segunda coluna -->
-                <a href="#" class="botoes__ancora">Saiba mais</a>
+    
+            <div class="card">
+                <!-- Primeira linha -->
+                <div class="card__descricao">
+                    <!-- Primeira coluna -->
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                        <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <!-- Segunda coluna -->
+                    <img src="./images/Angular.svg" alt="Logo do Angular" class="descricao__imagem">
+                </div>
+                <!-- Segunda linha -->
+                <div class="card__botoes">
+                    <!-- Primeira coluna -->
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="./images/Favoritos Card.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="./images/Compras Card.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <!-- Segunda coluna -->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="carrossel">
         <h2 class="carrossel__titulo">Mais vendidos</h2>
-        <div class="swiper">
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./images/Javascript.svg" alt="Livro sobre javascript assertivo da alura books"></div>
-                <div class="swiper-slide"><img src="./images/ApacheKafka.svg" alt="Livro sobre apache aafka e springboot da alura books"></div>
-                <div class="swiper-slide"><img src="./images/Guia Front-end.svg" alt="Livro guia front-end da alura books"></div>
-                <div class="swiper-slide"><img src="./images/Liderança.svg" alt="Livro sobre liderança em design da alura books"></div>
-                <div class="swiper-slide"><img src="./images/Acessibilidade.svg" alt="Livro sobre acessibilidade da alura books"></div>
-                <div class="swiper-slide"><img src="./images/Portugol.svg" alt="Livro sobre portugol da alura books"></div>
-            </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-        <div class="card">
-            <!-- Primeira linha -->
-            <div class="card__descricao">
-                <!-- Primeira coluna -->
-                <div class="descricao">
-                    <img src="./images/Estrela.svg" alt="Estrela" class="descricao__estrela">
-                    <img src="./images/Estrela.svg" alt="Estrela" class="descricao__estrela">
-                    <img src="./images/Estrela.svg" alt="Estrela" class="descricao__estrela">
-                    <img src="./images/Estrela.svg" alt="Estrela" class="descricao__estrela">
-                    <img src="./images/Estrela.svg" alt="Estrela" class="descricao__estrela">
-                    <h3 class="descricao__titulo">Autora do Mês</h3>
-                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+        <div class="carrossel__conteudo">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/Javascript.svg" alt="Livro sobre javascript assertivo da alura books"></div>
+                    <div class="swiper-slide"><img src="./images/ApacheKafka.svg" alt="Livro sobre apache aafka e springboot da alura books"></div>
+                    <div class="swiper-slide"><img src="./images/Guia Front-end.svg" alt="Livro guia front-end da alura books"></div>
+                    <div class="swiper-slide"><img src="./images/Liderança.svg" alt="Livro sobre liderança em design da alura books"></div>
+                    <div class="swiper-slide"><img src="./images/Acessibilidade.svg" alt="Livro sobre acessibilidade da alura books"></div>
+                    <div class="swiper-slide"><img src="./images/Portugol.svg" alt="Livro sobre portugol da alura books"></div>
                 </div>
-                <!-- Segunda coluna -->
-                <img src="./images/Perfil-escritora 1.svg" alt="Foto da escritora" class="descricao__imagem">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <!-- Segunda linha -->
-            <div class="card__botoes">
-                <!-- Primeira coluna -->
-                <ul class="botoes">
-                    <li class="botoes__item"><img src="./images/Favoritos Card.svg" alt="Favoritar livro"></li>
-                    <li class="botoes__item"><img src="./images/Compras Card.svg" alt="Adicionar no carrinho de compras"></li>
-                </ul>
-                <!-- Segunda coluna -->
-                <a href="#" class="botoes__ancora">Saiba mais</a>
+            <div class="card">
+                <!-- Primeira linha -->
+                <div class="card__descricao">
+                    <!-- Primeira coluna -->
+                    <div class="descricao">
+                        <img src="./images/Estrela.svg" alt="Estrela" class="descricao__estrela">
+                        <img src="./images/Estrela.svg" alt="Estrela" class="descricao__estrela">
+                        <img src="./images/Estrela.svg" alt="Estrela" class="descricao__estrela">
+                        <img src="./images/Estrela.svg" alt="Estrela" class="descricao__estrela">
+                        <img src="./images/Estrela.svg" alt="Estrela" class="descricao__estrela">
+                        <h3 class="descricao__titulo">Autora do Mês</h3>
+                        <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                        <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                    </div>
+                    <!-- Segunda coluna -->
+                    <img src="./images/Perfil-escritora 1.svg" alt="Foto da escritora" class="descricao__imagem">
+                </div>
+                <!-- Segunda linha -->
+                <div class="card__botoes">
+                    <!-- Primeira coluna -->
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="./images/Favoritos Card.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="./images/Compras Card.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <!-- Segunda coluna -->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
             </div>
         </div>
     </section>

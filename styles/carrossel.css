@@ -113,3 +113,45 @@
         margin-right: 3em;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel__titulo {
+        padding: 2em 0em 1em 0em;
+        font-size: 48px;
+    }
+
+    .carrossel__conteudo {
+        display: flex;
+        align-items: center;
+        gap: 5em;
+        margin: 5em 20vw 4em 20vw;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .descricao {
+        margin-right: 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__titulo-livro {
+        padding: 0.5em 0;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 60%;
+    }
+}
