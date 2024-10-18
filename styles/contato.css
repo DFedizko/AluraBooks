@@ -61,3 +61,14 @@
         width: 40%;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .contato { 
+        padding: 0 25%;
+    }
+
+    .contato__descricao {
+        margin: 0;
+        padding-block: 4em;
+    }
+}
