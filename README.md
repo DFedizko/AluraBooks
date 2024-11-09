@@ -1,4 +1,4 @@
-<h1>Aplicação Mobile First</h1>
+<h1>AluraBooks</h1>
 
 A aplicação foi feita com HTML, CSS e com a biblioteca [SwiperJS](https://swiperjs.com/)
 
@@ -10,7 +10,7 @@ A página pode ser acessada através deste [link](https://aplicacao-mobile-first
 
 Ou realizando um clone deste repositório e acessando o index.html:
 ```
-git clone https://github.com/DFedizko/aplicacao-mobile-first.git
+git clone https://github.com/DFedizko/AluraBooks.git
 ```
 
 <h2>Linguagens Utilizadas</h2>
@@ -28,5 +28,3 @@ Esse foi meu primeiro projeto com a metodologia Mobile First, que consiste em de
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/74017914?v=4" width=115><br><sub>Pedro Fedizko de Castro</sub>](https://github.com/DFedizko) |
 | :---: |
-
-
